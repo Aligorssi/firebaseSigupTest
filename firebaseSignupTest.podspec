@@ -17,19 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here. Add to create signup using firebase.
-                       DESC
+  s.description      = 'Add long description of the pod here. Add to create signup using firebase.'
 
   s.homepage         = 'https://github.com/Aligorssi/firebaseSigupTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aligorssi' => 'ali.gorssi@gmail.com' }
-  s.source           = { :git => 'https://github.com/Aligorssi/firebaseSigupTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Aligorssi/firebaseSigupTest.git', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-  s.swift_version = '4.0'
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '4.2'
   s.static_framework = true
 
   s.source_files = 'firebaseSignupTest/Classes/*'
@@ -40,6 +38,7 @@ TODO: Add long description of the pod here. Add to create signup using firebase.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
+  
   s.dependency 'Firebase/Core'
   s.dependency 'Firebase/Database'
   s.dependency 'Firebase/Firestore'
