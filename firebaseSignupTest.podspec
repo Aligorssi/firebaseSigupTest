@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-  s.swift_version = '4.2'
+  s.swift_version = '4.0'
   s.static_framework = true
 
   s.source_files = 'firebaseSignupTest/Classes/*'
