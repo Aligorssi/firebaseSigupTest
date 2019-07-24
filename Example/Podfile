@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'firebaseSignupTest_Example' do
+  pod 'firebaseSignupTest', :path => '../'
+
+  target 'firebaseSignupTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
