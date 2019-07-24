@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign UpVC-->
+        <scene sceneID="GRZ-3a-QQ2">
+            <objects>
+                <viewController storyboardIdentifier="SignUpVC" id="Fc6-b1-Mdm" customClass="SignUpVC" customModule="Pods_firebaseSignupTest_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pNS-7I-dVL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="+ (Country Code) Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GOu-bW-Gc1">
+                                <rect key="frame" x="30" y="244" width="354" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMr-Vm-yXo">
+                                <rect key="frame" x="178.5" y="399" width="57" height="30"/>
+                                <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerTapped:" destination="Fc6-b1-Mdm" eventType="touchUpInside" id="o87-TX-mgG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yMr-Vm-yXo" firstAttribute="centerX" secondItem="pNS-7I-dVL" secondAttribute="centerX" id="0X3-ZK-mpM"/>
+                            <constraint firstItem="GOu-bW-Gc1" firstAttribute="leading" secondItem="Zdw-Rv-f67" secondAttribute="leading" constant="30" id="Ted-AV-jiv"/>
+                            <constraint firstItem="Zdw-Rv-f67" firstAttribute="trailing" secondItem="GOu-bW-Gc1" secondAttribute="trailing" constant="30" id="WVV-bS-8BL"/>
+                            <constraint firstItem="GOu-bW-Gc1" firstAttribute="top" secondItem="Zdw-Rv-f67" secondAttribute="top" constant="200" id="fVp-vV-QK5"/>
+                            <constraint firstItem="yMr-Vm-yXo" firstAttribute="top" secondItem="GOu-bW-Gc1" secondAttribute="bottom" constant="125" id="u9H-gi-28M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Zdw-Rv-f67"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnRegister" destination="yMr-Vm-yXo" id="HW3-TN-Lrg"/>
+                        <outlet property="txtInputField" destination="GOu-bW-Gc1" id="5iV-Eu-7nf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hds-LT-7w6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="50"/>
+        </scene>
+    </scenes>
+</document>
