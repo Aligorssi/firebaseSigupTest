@@ -32,7 +32,7 @@ TODO: Add long description of the pod here. Add to create signup using firebase.
   s.swift_version = '4.0'
   s.static_framework = true
 
-  s.source_files = 'firebaseSignupTest/Classes/*'
+  s.source_files = 'firebaseSignupTest/firebaseSignupTest/Classes/*'
   
   # s.resource_bundles = {
   #   'firebaseSignupTest' => ['firebaseSignupTest/Assets/*.png']
