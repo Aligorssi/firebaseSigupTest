@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here. Add to create signup using firebase.
                        DESC
 
-  s.homepage         = 'https://github.com/aligorssi/firebaseSignupTest'
+  s.homepage         = 'https://github.com/Aligorssi/firebaseSigupTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aligorssi' => 'ali.gorssi@gmail.com' }
-  s.source           = { :git => 'https://github.com/aligorssi/firebaseSignupTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Aligorssi/firebaseSigupTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -40,7 +40,6 @@ TODO: Add long description of the pod here. Add to create signup using firebase.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  
   s.dependency 'Firebase/Core'
   s.dependency 'Firebase/Database'
   s.dependency 'Firebase/Firestore'
