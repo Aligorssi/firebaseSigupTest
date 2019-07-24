@@ -1,0 +1,6 @@
+framework module firebaseSignupTest {
+  umbrella header "firebaseSignupTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

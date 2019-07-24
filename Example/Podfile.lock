@@ -1,0 +1,16 @@
+PODS:
+  - firebaseSignupTest (0.1.0)
+
+DEPENDENCIES:
+  - firebaseSignupTest (from `../`)
+
+EXTERNAL SOURCES:
+  firebaseSignupTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  firebaseSignupTest: e709c7fe464d527c8c132b32e2590311a09117ff
+
+PODFILE CHECKSUM: a0d62f0228f673da95999e53baf3b70815dadf3d
+
+COCOAPODS: 1.7.5
